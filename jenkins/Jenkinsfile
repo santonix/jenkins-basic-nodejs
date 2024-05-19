@@ -2,7 +2,7 @@ pipeline {
    agent  any 
     environment {
         APP = "ap-jenkins-basic-nodejs"
-        PORT="3000"
+        PORT="4000"
         HOST="localhost"
     }
     stages {
