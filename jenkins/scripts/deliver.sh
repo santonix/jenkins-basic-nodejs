@@ -7,4 +7,4 @@ npm start
 # echo $! > .pidfile
 # set +x
 
-echo 'Visit http://localhost:3000 to see your Node.js application in action.'
+echo 'Visit http://localhost:4000 to see your Node.js application in action.'
