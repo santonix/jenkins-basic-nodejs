@@ -31,7 +31,7 @@ pipeline {
                 */
                 sh """
                 docker rm ${APP} --force || true
-                docker run -d --name ${APP} -p ${PORT}:3000 ${APP}:${BUILD_NUMBER}
+                docker run -d --name ${APP} -p ${PORT}:4000 ${APP}:${BUILD_NUMBER}
                 """
             }
         }
