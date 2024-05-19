@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 
-const port = 3000
+const port = 4000
 
 app.get('/', (req, res) => {
   res.send('<h1>This is first basic node JS app with Jenkins - 3rd changed made<h1>')
